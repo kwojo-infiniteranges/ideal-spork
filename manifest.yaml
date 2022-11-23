@@ -4,6 +4,7 @@ metadata:
   name: nginx-configmap
 data:
   nginx.conf: |
+    **Intentionally breaking the build**
     user  nginx;
     worker_processes  1;
     
